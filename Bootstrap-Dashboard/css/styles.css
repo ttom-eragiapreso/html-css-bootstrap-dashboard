@@ -4,7 +4,6 @@
   --header-height: = 70px;
 }
 
-
 /* GENERAL AND DEBUG */
 
 img {
@@ -16,7 +15,6 @@ body {
 }
 
 /* HEADER NAVBAR */
-
 
 .input-group-text.bg-custom, .form-control.bg-custom {
   background-color: #e5e5e5;
@@ -65,9 +63,6 @@ main {
   height: 100%;
 }
 
-
-
-
 /* TABLE */
 
 .avatar-code {
@@ -78,13 +73,6 @@ table tr *:not(:first-child) {
   width: 105px;
   text-align: center;
 }
-
-
-
-
-
-
-
 
 /* MEDIA CUSTOM */
 

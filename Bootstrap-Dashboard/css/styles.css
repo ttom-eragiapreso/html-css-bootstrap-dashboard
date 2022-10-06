@@ -30,12 +30,15 @@ body {
 /* ASIDE */
 
 aside {
-  position: relative;
   height: calc(100vh - var(--header-height));
   background-image: url(../assets/img/sidebar-bg.png);
   background-color: #12283e;
   width: 10%;
   min-width: 50px;
+}
+
+aside i {
+  font-size: 1.8rem;
 }
 
 /* MAIN */
@@ -63,3 +66,13 @@ table tr *:not(:first-child) {
   width: 105px;
   text-align: center;
 }
+
+
+
+
+
+@media (min-width: 992px) {
+  aside i {
+    font-size: 1.3rem;
+  }
+} 

@@ -13,7 +13,6 @@ img {
 
 body {
   font-family: 'Roboto', sans-serif;
-  height: 100vh;
 }
 
 /* HEADER NAVBAR */
@@ -23,24 +22,32 @@ body {
   background-color: #e5e5e5;
 }
 
+.nav-item.em-li {
+  padding: 0 5px;
+}
+
+
 /* ASIDE */
 
 aside {
   position: relative;
-  height: calc(100vh - 70px);
+  height: calc(100vh - var(--header-height));
   background-image: url(../assets/img/sidebar-bg.png);
   background-color: #12283e;
   width: 10%;
   min-width: 50px;
 }
 
+/* MAIN */
 
+main {
+  height: calc(100vh - 70px);
+}
 
 /* MAIN RIGHT  */
 
 .main-right {
-  padding-top: 61px;
-  height: 100vh;
+  height: 100%;
 }
 
 
@@ -50,4 +57,9 @@ aside {
 
 .avatar-code {
   width: 30px;
+}
+
+table tr *:not(:first-child) {
+  width: 105px;
+  text-align: center;
 }
